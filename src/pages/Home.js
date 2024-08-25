@@ -16,7 +16,7 @@ const Home = () =>{
 
   
  useEffect (() =>{
-      const key  = '5ebc78bf47994201a2ad402d7ba38b05';
+      const key  = 'f301b5ed656d4d3d961b707b063bcf95';
       const url = `https://newsapi.org/v2/everything?sources=${source}&q=${search}&apiKey=${key}`
     
       const fetchNews = async()=>{
